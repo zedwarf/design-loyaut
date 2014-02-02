@@ -1,0 +1,99 @@
+{
+    margin: 0;
+    padding: 0;
+  }
+  body {
+    background-color: #34ab00;
+    color: #fff;
+    font-family: sans-serif;
+    font-size: 20px;
+    text-transform: uppercase;
+
+  }
+  a { color: white;
+  	text-decoration: none;
+  }
+  header {
+  position: relative;
+  height: 270px;
+}
+  header .logo {
+    position: absolute;
+    left: 100px;
+    top: 120px;
+    letter-spacing: 2px;
+  }
+  header .logo img {
+  	margin-bottom: 5px;
+  }
+  header .logo h1 {
+  		font-weight: normal;
+  		font-size: 24px;
+  }
+  header nav {
+    position: absolute;
+    right: 200px;
+    top:157px;
+    font-size: 24px;
+   
+
+  }
+  header nav li {
+  		display: inline;
+  		margin: 0 15px;
+  		letter-spacing: 2px;
+}
+header nav li a{
+	display: inline-block;
+	line-height: 2;
+	letter-spacing: 4px;
+
+}
+header nav li a.current {
+} 
+section {
+	margin: 120px 100px 0;
+
+}
+section img {
+
+	float: left;
+}
+section figcaption {
+	
+	position: relative;
+	float: right;
+	width: 40%;
+}
+section figcaption h1 {
+	line-height: 1.5;
+	letter-spacing: 4px;
+	font-size: 32px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+section figcaption p {
+	text-transform: none;
+	font-family: georgia, serif;
+	font-size: 24px;
+	line-height: 1.6;
+	margin-bottom: 50px;
+}
+section figcaption a {
+	display: inline-block;;
+	font-size: 24px;
+	line-height: 2;
+	border-bottom: 5px solid white;
+	letter-spacing: 4px;
+
+}
+section figcaption img {
+	position: absolute;
+	top: 43%;
+	left: -270px;
+
+}
+section .main-image {
+	float: left;
+	width: 45%;
+}
